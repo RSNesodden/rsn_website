@@ -10,11 +10,11 @@ return [
         'Connections' => [
             'Default' => [
                 'charset' => 'utf8',
-                'dbname' => 't3kit',
+                'dbname' => 'nesodden_steiner',
                 'driver' => 'mysqli',
                 'host' => 'localhost',
-                'password' => 't3kit1234',
-                'user' => 't3kit',
+                'password' => 'ohvesahJoo9o',
+                'user' => 'nesodden_steiner',
             ],
         ],
     ],

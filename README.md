@@ -163,3 +163,4 @@ git checkout 7.10.0
 ```
 
 ***
+Creating new repo for nesodden.steinerskolen.no
