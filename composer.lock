@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a369b50764520fe9aaac786172a2ddc8",
+    "content-hash": "5934392a057db0057f6244311280efde",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -1009,6 +1009,7 @@
                 "shortcut",
                 "typo3"
             ],
+            "abandoned": "typo3-ter/url-forwarding",
             "time": "2016-09-20T10:23:01+00:00"
         },
         {
@@ -1624,11 +1625,11 @@
         },
         {
             "name": "t3kit/theme-t3kit",
-            "version": "2.9.0",
+            "version": "dev-responsive-images",
             "source": {
                 "type": "git",
                 "url": "https://github.com/t3kit/theme_t3kit",
-                "reference": "61e9463765d14696ed8465fc86b377af65794bf0"
+                "reference": "9f565a55c0f75de31b21a409043ea49f2d076ba7"
             },
             "require": {
                 "georgringer/news": "~6.3.0",
@@ -1676,7 +1677,7 @@
                 "source": "https://github.com/t3kit/theme_t3kit",
                 "docs": "https://github.com/t3kit/t3kit/blob/master/README.md"
             },
-            "time": "2018-10-26T13:01:32+00:00"
+            "time": "2018-12-04T15:23:21+00:00"
         },
         {
             "name": "typo3-ter/cs-seo",
@@ -3779,6 +3780,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "t3kit/theme-t3kit": 20,
         "kaystrobach/dyncss": 20
     },
     "prefer-stable": true,
