@@ -47,7 +47,9 @@ return [
     ],
     'EXTCONF' => [
         'lang' => [
-            'availableLanguages' => [],
+            'availableLanguages' => [
+                'no',
+            ],
         ],
     ],
     'FE' => [
