@@ -11,6 +11,9 @@ return [
         'core' => [
             'packagePath' => 'typo3/sysext/core/',
         ],
+        'scheduler' => [
+            'packagePath' => 'typo3/sysext/scheduler/',
+        ],
         'extbase' => [
             'packagePath' => 'typo3/sysext/extbase/',
         ],
@@ -37,6 +40,9 @@ return [
         ],
         'lang' => [
             'packagePath' => 'typo3/sysext/lang/',
+        ],
+        'reports' => [
+            'packagePath' => 'typo3/sysext/reports/',
         ],
         'setup' => [
             'packagePath' => 'typo3/sysext/setup/',
@@ -107,12 +113,6 @@ return [
         'recordlist' => [
             'packagePath' => 'typo3/sysext/recordlist/',
         ],
-        'reports' => [
-            'packagePath' => 'typo3/sysext/reports/',
-        ],
-        'scheduler' => [
-            'packagePath' => 'typo3/sysext/scheduler/',
-        ],
         'sv' => [
             'packagePath' => 'typo3/sysext/sv/',
         ],
@@ -127,6 +127,15 @@ return [
         ],
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
+        ],
+        'gridelements' => [
+            'packagePath' => 'typo3conf/ext/gridelements/',
+        ],
+        'static_info_tables' => [
+            'packagePath' => 'typo3conf/ext/static_info_tables/',
+        ],
+        'themes' => [
+            'packagePath' => 'typo3conf/ext/themes/',
         ],
         'realurl' => [
             'packagePath' => 'typo3conf/ext/realurl/',
@@ -146,17 +155,8 @@ return [
         'realurl_404_multilingual' => [
             'packagePath' => 'typo3conf/ext/realurl_404_multilingual/',
         ],
-        'static_info_tables' => [
-            'packagePath' => 'typo3conf/ext/static_info_tables/',
-        ],
-        'themes' => [
-            'packagePath' => 'typo3conf/ext/themes/',
-        ],
         'go_maps_ext' => [
             'packagePath' => 'typo3conf/ext/go_maps_ext/',
-        ],
-        'gridelements' => [
-            'packagePath' => 'typo3conf/ext/gridelements/',
         ],
         'news' => [
             'packagePath' => 'typo3conf/ext/news/',
@@ -166,6 +166,9 @@ return [
         ],
         'theme_t3kit' => [
             'packagePath' => 'typo3conf/ext/theme_t3kit/',
+        ],
+        'subtheme_t3kit_rsn' => [
+            'packagePath' => 'typo3conf/ext/subtheme_t3kit_rsn/',
         ],
         'dashboard' => [
             'packagePath' => 'typo3conf/ext/dashboard/',

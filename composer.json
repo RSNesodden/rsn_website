@@ -33,12 +33,16 @@
     {
       "type": "git",
       "url": "https://github.com/t3kit/TYPO3.dyncss"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/pixelant/subtheme_t3kit_rsn"
     }
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "t3kit/theme-t3kit": "dev-responsive-images",
+    "pixelant/subtheme_t3kit_rsn": "dev-master",
     "typo3-ter/url-forwarding": "~1.2.0",
     "pixelant/dashboard": "~8.0.0",
     "kaystrobach/dyncss": "dev-master as 0.8.0"

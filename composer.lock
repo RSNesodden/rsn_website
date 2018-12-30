@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5934392a057db0057f6244311280efde",
+    "content-hash": "8d73505bde067d4c4cc38f069a30e07c",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -1046,6 +1046,43 @@
                 "TYPO3 CMS"
             ],
             "time": "2017-06-08T10:50:45+00:00"
+        },
+        {
+            "name": "pixelant/subtheme_t3kit_rsn",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pixelant/subtheme_t3kit_rsn",
+                "reference": "f13e6ab791596b88a7d3dd0873b1e965344a7d01"
+            },
+            "require": {
+                "t3kit/theme-t3kit": "dev-responsive-images"
+            },
+            "type": "typo3-cms-extension",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "t3kit Community",
+                    "homepage": "https://github.com/t3kit"
+                }
+            ],
+            "description": "t3kit subtheme for nesodden.steinerskolen.no.",
+            "homepage": "http://t3kit.com/",
+            "keywords": [
+                "cms",
+                "starter",
+                "t3kit",
+                "typo3"
+            ],
+            "support": {
+                "issues": "https://github.com/t3kit/subtheme_t3kit_template/issues",
+                "forum": "https://typo3.slack.com/messages/t3kit",
+                "source": "https://github.com/t3kit/subtheme_t3kit_template",
+                "docs": "https://github.com/t3kit/t3kit/blob/master/README.md"
+            },
+            "time": "2018-12-30T16:04:46+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3780,7 +3817,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "t3kit/theme-t3kit": 20,
+        "pixelant/subtheme_t3kit_rsn": 20,
         "kaystrobach/dyncss": 20
     },
     "prefer-stable": true,
