@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+  web:
+    environment:
+      - TYPO3_CONTEXT=Development/Docker
+      - DB_CONTAINER_NAME=db
+      - DB_NAME=db
+      - DB_USER=db
+      - DB_PASSWORD=db
+      - MAILHOG_CONTAINER_NAME=$DDEV_HOSTNAME
