@@ -36,16 +36,17 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/pixelant/subtheme_t3kit_rsn"
+      "url": "https://github.com/rsnesodden/subtheme_t3kit_rsn"
     }
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "pixelant/subtheme_t3kit_rsn": "dev-master",
+    "t3kit/theme-t3kit": "dev-responsive-images",
     "typo3-ter/url-forwarding": "~1.2.0",
     "pixelant/dashboard": "~8.0.0",
-    "kaystrobach/dyncss": "dev-master as 0.8.0"
+    "kaystrobach/dyncss": "dev-master as 0.8.0",
+    "rsnesodden/subtheme_t3kit_rsn": "dev-master"
   },
   "require-dev": {
     "t3kit/db": "~2.7.0",
