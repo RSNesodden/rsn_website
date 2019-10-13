@@ -16,7 +16,7 @@ switch (\TYPO3\CMS\Core\Utility\GeneralUtility::getApplicationContext()) {
 		$GLOBALS['TYPO3_CONF_VARS']['SYS']['clearCacheSystem'] = true;
 		$GLOBALS['TYPO3_CONF_VARS']['MAIL']['transport'] = 'smtp';
 		$GLOBALS['TYPO3_CONF_VARS']['MAIL']['transport_smtp_server'] = getenv('MAILHOG_CONTAINER_NAME') . ':1025';
-        $GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern'] = 'rsn.ddev.site|localhost';
+        $GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern'] = 'rsn.ddev.site|localhost|rsn.ddev.local';
         // $GLOBALS['TYPO3_CONF_VARS']['SYS']['systemLogLevel'] = 0;
         // $GLOBALS['TYPO3_CONF_VARS']['SYS']['exceptionalErrors'] = 28674;
 		// Page will load noticably slow when systemLog to "mail" is enabled and a lot of errors occurs.
